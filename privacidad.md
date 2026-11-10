@@ -5,7 +5,7 @@ lang: es
 
 # Política de privacidad de Sala
 
-Última actualización: 10 de noviembre de 2026 (registro de lo que abres y secciones).
+Última actualización: 10 de noviembre de 2026 (registro de lo que abres, secciones y juegos).
 
 Sala es una app gratuita para Fire TV que reúne en una sola pantalla lo que hay para ver en Netflix,
 Prime Video, Disney+, Max y YouTube, y abre cada título en la app oficial de su plataforma. La hace
@@ -68,6 +68,25 @@ inteligente WiZ en tu red local: si no conoce ya su dirección o no responde en 
 a todos los dispositivos de la red (puerto UDP 38899) y, si una bombilla responde, le pide cómo está y le ordena atenuarse; al volver, la deja como estaba.
 Estos mensajes no salen de tu red de casa. Si no tienes bombilla o no quieres esta función, desactívala
 en **Ajustes → Casa**.
+
+## Juegos
+
+Si guardas juegos en la carpeta **Download/Sala/Juegos** del Fire TV, Sala los lista y los abre en
+RetroArch. Para eso necesita el permiso de **acceso a todos los archivos**, que solo se da si tú lo
+activas (Sala → Juegos → Dar permiso). Sala solo mira los nombres de los archivos de esa carpeta: no lee
+su contenido, no los envía a ningún sitio y no incluye ni descarga juegos ni BIOS.
+
+## Permisos que pide Sala
+
+| Permiso | Para qué |
+|---|---|
+| Internet y estado de la red | Buscar, cargar el catálogo y las imágenes, y mostrar en Ajustes la dirección del Fire TV en tu red |
+| Multidifusión wifi | Encontrar la bombilla del modo cine en tu red de casa |
+| Acceso a todos los archivos (solo si lo activas) | Listar tus juegos en Download/Sala/Juegos |
+| Cerrar procesos en segundo plano | Cerrar RetroArch antes de abrir otro juego |
+| Ver si hay apps instaladas (YouTube, plataformas, RetroArch) | Abrir cada cosa en su app |
+
+Sala no pide ubicación, micrófono, cámara ni contactos.
 
 ## Otras apps
 
