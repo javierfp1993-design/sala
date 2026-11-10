@@ -5,7 +5,7 @@ lang: es
 
 # Política de privacidad de Sala
 
-Última actualización: 10 de noviembre de 2026.
+Última actualización: 10 de noviembre de 2026 (registro de lo que abres y secciones).
 
 Sala es una app gratuita para Fire TV que reúne en una sola pantalla lo que hay para ver en Netflix,
 Prime Video, Disney+, Max y YouTube, y abre cada título en la app oficial de su plataforma. La hace
@@ -17,6 +17,7 @@ Javier para uso particular, sin ánimo de lucro. Contacto: [consultas en GitHub]
 - Sala **no lleva publicidad, analítica ni informes de errores**, y no usa identificadores de tu
   dispositivo.
 - Lo que Sala guarda se queda **en tu Fire TV**. Nadie más, tampoco quien hace la app, recibe una copia.
+  Eso incluye el **registro de los vídeos que abres** desde Sala, que sirve para sugerirte canales.
 - Para buscar, Sala envía lo que escribes a **YouTube** (y, para películas y series, a **TMDB**). Esos
   servicios lo tratan según sus propias políticas.
 
@@ -29,6 +30,9 @@ seguridad en la nube.
 |---|---|---|
 | Tus **ajustes**: plataformas que tienes contratadas, duración del historial de búsquedas, modo cine, dirección IP de tu bombilla si la escribes, carpeta de juegos | Recordar cómo quieres usar Sala | Hasta que los cambies, pulses «Restablecer los ajustes» o desinstales la app |
 | **Resultados de tus búsquedas** de YouTube (título, canal y miniatura de los vídeos) | Repetir una búsqueda sin volver a pedirla a internet | 24 horas o 7 días, según elijas en Ajustes, y después hasta 7 días más como copia por si no hay conexión |
+| Tus **secciones** (por ejemplo, «Ciclismo»): su nombre y los canales de YouTube que elijas | Mostrarte los últimos vídeos de esos canales | Hasta que las cambies o desinstales la app |
+| **Registro de lo que abres**: cada vídeo de YouTube que abres desde Sala (su identificador y título), su canal, la hora y desde dónde lo abriste (buscador, una sección o Inicio). Sala no sabe qué pasa después dentro de la app de YouTube: ni si lo ves entero ni qué ves luego | Sugerirte canales para tus secciones | Las últimas 2000 aperturas como mucho, hasta que lo borres en Ajustes → YouTube o desinstales la app |
+| **Últimos vídeos de los canales** de tus secciones (título, canal y miniatura) | No volver a pedirlos cada vez | 30 minutos, y después hasta 7 días más como copia por si no hay conexión |
 | **Catálogo** de películas y series (fichas, listas y resultados de tus búsquedas de películas y series) | Que la pantalla cargue rápido | Entre 3 horas y 30 días según el tipo de dato, más 7 días como copia sin conexión |
 | **Imágenes** (miniaturas y carteles) y otras respuestas de internet | No descargarlas cada vez | Hasta llenar 50 MB; se borran primero las más antiguas |
 | Si usas el **modo cine**: la dirección IP de tu bombilla en la red de casa y cómo estaba la luz antes de atenuarla | Atenuar la luz al ver algo y dejarla como estaba al terminar | La IP, hasta que pulses «Restablecer los ajustes», borres los datos de la app o la desinstales; el estado de la luz, hasta que se restaura |
@@ -44,6 +48,8 @@ Sala solo se conecta a estos servicios, siempre por conexión cifrada (HTTPS):
   YouTube en Sala aceptas los [Términos de servicio de YouTube](https://www.youtube.com/t/terms), y los
   datos que recibe Google se tratan según la
   [Política de privacidad de Google](https://policies.google.com/privacy).
+  Para tus secciones, Sala descarga además la lista pública de últimos vídeos de cada canal elegido
+  (desde youtube.com), enviando solo el identificador del canal.
 - **TMDB (The Movie Database).** Para mostrar películas y series, Sala pide listas, fichas y carteles, y
   envía las búsquedas que hagas de películas o series, los filtros que uses (por ejemplo, género o
   duración) y las plataformas que tengas marcadas en Ajustes. Lo trata TMDB según su
@@ -74,7 +80,8 @@ si están instaladas en el Fire TV; esa información no sale del dispositivo.
 
 Como todo está en tu Fire TV, puedes borrarlo tú en cualquier momento:
 
-- **Ajustes de Sala → YouTube → Borrar el historial de búsquedas.**
+- **Ajustes de Sala → YouTube → Borrar el historial de búsquedas** y **Borrar el registro de lo que
+  abres.**
 - **Ajustes de Sala → Avanzado → Vaciar la caché de imágenes** y **Restablecer los ajustes.**
 - **Para borrarlo todo:** en el Fire TV, Ajustes → Aplicaciones → Administrar aplicaciones instaladas →
   Sala → **Borrar datos**. O desinstala Sala.
