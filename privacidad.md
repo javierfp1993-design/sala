@@ -31,7 +31,7 @@ seguridad en la nube.
 | **Resultados de tus búsquedas** de YouTube (título, canal y miniatura de los vídeos) | Repetir una búsqueda sin volver a pedirla a internet | 24 horas o 7 días, según elijas en Ajustes, y después hasta 7 días más como copia por si no hay conexión |
 | **Catálogo** de películas y series (fichas, listas y resultados de tus búsquedas de películas y series) | Que la pantalla cargue rápido | Entre 3 horas y 30 días según el tipo de dato, más 7 días como copia sin conexión |
 | **Imágenes** (miniaturas y carteles) y otras respuestas de internet | No descargarlas cada vez | Hasta llenar 50 MB; se borran primero las más antiguas |
-| Si usas el **modo cine**: la dirección IP de tu bombilla en la red de casa y cómo estaba la luz antes de atenuarla | Atenuar la luz al ver algo y dejarla como estaba al terminar | La IP, hasta que desinstales la app o borres sus datos; el estado de la luz, hasta que se restaura |
+| Si usas el **modo cine**: la dirección IP de tu bombilla en la red de casa y cómo estaba la luz antes de atenuarla | Atenuar la luz al ver algo y dejarla como estaba al terminar | La IP, hasta que pulses «Restablecer los ajustes», borres los datos de la app o la desinstales; el estado de la luz, hasta que se restaura |
 
 ## Qué envía Sala y a quién
 
