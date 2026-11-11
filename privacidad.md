@@ -5,7 +5,7 @@ lang: es
 
 # Política de privacidad de Sala
 
-Última actualización: 10 de noviembre de 2026 (registro de lo que abres, secciones y juegos).
+Última actualización: 11 de noviembre de 2026 (registro de lo que abres, secciones, juegos y móvil como mando).
 
 Sala es una app gratuita para Fire TV que reúne en una sola pantalla lo que hay para ver en Netflix,
 Prime Video, Disney+, Max y YouTube, y abre cada título en la app oficial de su plataforma. La hace
@@ -32,6 +32,7 @@ seguridad en la nube.
 | **Resultados de tus búsquedas** de YouTube (título, canal y miniatura de los vídeos) | Repetir una búsqueda sin volver a pedirla a internet | 24 horas o 7 días, según elijas en Ajustes, y después hasta 7 días más como copia por si no hay conexión |
 | Tus **secciones** (por ejemplo, «Ciclismo»): su nombre y los canales de YouTube que elijas | Mostrarte los últimos vídeos de esos canales | Hasta que las cambies o desinstales la app |
 | **Registro de lo que abres**: cada vídeo de YouTube que abres desde Sala (su identificador y título), su canal, la hora y desde dónde lo abriste (buscador, una sección o Inicio). Sala no sabe qué pasa después dentro de la app de YouTube: ni si lo ves entero ni qué ves luego | Sugerirte canales para tus secciones | Las últimas 2000 aperturas como mucho, hasta que lo borres en Ajustes → YouTube o desinstales la app |
+| Si usas el **móvil como mando**: una llave aleatoria que empareja tu móvil con el Fire TV | Que solo tus móviles puedan manejar Sala | Hasta que pulses «Olvidar los móviles» o desinstales la app |
 | **Últimos vídeos de los canales** de tus secciones (título, canal y miniatura) | No volver a pedirlos cada vez | 30 minutos, y después hasta 7 días más como copia por si no hay conexión |
 | **Catálogo** de películas y series (fichas, listas y resultados de tus búsquedas de películas y series) | Que la pantalla cargue rápido | Entre 3 horas y 30 días según el tipo de dato, más 7 días como copia sin conexión |
 | **Imágenes** (miniaturas y carteles) y otras respuestas de internet | No descargarlas cada vez | Hasta llenar 50 MB; se borran primero las más antiguas |
@@ -49,7 +50,8 @@ Sala solo se conecta a estos servicios, siempre por conexión cifrada (HTTPS):
   datos que recibe Google se tratan según la
   [Política de privacidad de Google](https://policies.google.com/privacy).
   Para tus secciones, Sala descarga además la lista pública de últimos vídeos de cada canal elegido
-  (desde youtube.com), enviando solo el identificador del canal.
+  (desde youtube.com), enviando solo el identificador del canal. Si añades un canal pegando un enlace,
+  Sala pregunta a YouTube a qué canal corresponde ese enlace.
 - **TMDB (The Movie Database).** Para mostrar películas y series, Sala pide listas, fichas y carteles, y
   envía las búsquedas que hagas de películas o series, los filtros que uses (por ejemplo, género o
   duración) y las plataformas que tengas marcadas en Ajustes. Lo trata TMDB según su
@@ -69,6 +71,19 @@ a todos los dispositivos de la red (puerto UDP 38899) y, si una bombilla respond
 Estos mensajes no salen de tu red de casa. Si no tienes bombilla o no quieres esta función, desactívala
 en **Ajustes → Casa**.
 
+### En tu red de casa (móvil como mando)
+
+Mientras Sala está abierta, el Fire TV ofrece una pequeña página web en tu wifi (puerto 8642) para usar
+el móvil como mando y configurar Sala. Solo responde a dispositivos de tu red de casa, nunca desde
+internet, y solo a los móviles emparejados con el código QR de la pantalla **Móvil**. Desde el móvil
+puedes enviar búsquedas y texto a la tele y cambiar tus secciones y ajustes, que se guardan en el Fire
+TV como si lo hicieras con el mando. Sala no guarda nada más del móvil: ni historial ni datos
+personales. En el navegador del móvil se guarda la llave de emparejamiento.
+
+La conexión entre el móvil y la tele va sin cifrar dentro de tu wifi, como la de muchos aparatos
+domésticos; alguien conectado a tu misma wifi podría verla. Para dejar de usarlo, pulsa **Olvidar los
+móviles** en la pantalla Móvil: la llave cambia y ningún móvil anterior sirve.
+
 ## Juegos
 
 Si guardas juegos en la carpeta **Download/Sala/Juegos** del Fire TV, Sala los lista y los abre en
@@ -80,7 +95,7 @@ su contenido, no los envía a ningún sitio y no incluye ni descarga juegos ni B
 
 | Permiso | Para qué |
 |---|---|
-| Internet y estado de la red | Buscar, cargar el catálogo y las imágenes, y mostrar en Ajustes la dirección del Fire TV en tu red |
+| Internet y estado de la red | Buscar, cargar el catálogo y las imágenes, ofrecer la página del móvil en tu wifi y mostrar la dirección del Fire TV en tu red |
 | Multidifusión wifi | Encontrar la bombilla del modo cine en tu red de casa |
 | Acceso a todos los archivos, solo si lo activas (en Fire TV antiguos, lectura del almacenamiento) | Listar tus juegos en Download/Sala/Juegos |
 | Cerrar procesos en segundo plano | Intentar cerrar RetroArch antes de abrir otro juego |
