@@ -61,6 +61,23 @@ No hace falta activar «Depuración ADB»: eso es solo para quien programa la ap
 2. Para tenerla en el inicio: selecciónala, pulsa el botón **Menú** (tres rayas) → **Mover** y llévala
    a la fila de arriba.
 
+## 6. (Opcional) Juegos
+
+La sección **Juegos** de Sala abre en RetroArch los juegos que tú copies en el Fire TV. Sala no incluye ni
+descarga juegos. Para que Sala vea la carpeta de juegos hay que darle permiso una vez:
+
+1. En Sala, abre **Juegos** en el menú de la izquierda.
+2. Si sale «Sala necesita permiso para ver tus juegos», pulsa **Dar permiso**.
+3. Se abre la pantalla de permisos de Fire TV para Sala. Selecciona **Archivos y contenido multimedia**
+   (o **Acceso a todos los archivos**) y pulsa el **botón central** hasta que ponga **Permitido**.
+4. Pulsa **Atrás** para volver a Sala. Los juegos aparecen solos.
+
+Sala solo usa este permiso para leer la carpeta de juegos (`Download/Sala/Juegos`). Ni lee ni envía
+nada más.
+
+> Este paso aún no se ha probado desde la pantalla de Fire TV. Si no aparece la opción o no cambia,
+> avisa a Javier: puede darlo desde el ordenador.
+
 ## Actualizaciones
 
 Sala no se actualiza sola, porque no viene de la tienda de Amazon. Cuando Javier te avise de que hay
@@ -80,6 +97,7 @@ Tus datos se conservan. Si en algún momento Sala avisa de que hay versión nuev
 | «La app no está instalada» al actualizar | Avisa a Javier: el archivo no es de la misma versión firmada |
 | Al buscar en YouTube: «Por hoy se han acabado las búsquedas…» | Todos compartimos un número de búsquedas al día. Vuelven a las 9 de la mañana |
 | Al abrir un vídeo: «No se ha podido abrir el vídeo» | Instala la app de YouTube desde la tienda de Amazon |
+| En Juegos: «Sala necesita permiso para ver tus juegos» y no se puede activar | Avisa a Javier (permiso por ADB, ver abajo) |
 
 ---
 

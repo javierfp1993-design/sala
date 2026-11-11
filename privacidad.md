@@ -82,8 +82,8 @@ su contenido, no los envía a ningún sitio y no incluye ni descarga juegos ni B
 |---|---|
 | Internet y estado de la red | Buscar, cargar el catálogo y las imágenes, y mostrar en Ajustes la dirección del Fire TV en tu red |
 | Multidifusión wifi | Encontrar la bombilla del modo cine en tu red de casa |
-| Acceso a todos los archivos (solo si lo activas) | Listar tus juegos en Download/Sala/Juegos |
-| Cerrar procesos en segundo plano | Cerrar RetroArch antes de abrir otro juego |
+| Acceso a todos los archivos, solo si lo activas (en Fire TV antiguos, lectura del almacenamiento) | Listar tus juegos en Download/Sala/Juegos |
+| Cerrar procesos en segundo plano | Intentar cerrar RetroArch antes de abrir otro juego |
 | Ver si hay apps instaladas (YouTube, plataformas, RetroArch) | Abrir cada cosa en su app |
 
 Sala no pide ubicación, micrófono, cámara ni contactos.
